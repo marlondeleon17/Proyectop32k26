@@ -11,7 +11,7 @@ import java.util.List;
 
 public class AsignacionPerfilUsuarioDAO {
 
-    // Consultas SQL actualizadas a los nombres de tu base de datos
+    //  SQL actualizada a los nombres 
     private static final String SQL_SELECT = "SELECT Usucodigo, Percodigo FROM asignacionperfilusuario";
     private static final String SQL_INSERT = "INSERT INTO asignacionperfilusuario(Usucodigo, Percodigo) VALUES(?, ?)";
     private static final String SQL_UPDATE = "UPDATE asignacionperfilusuario SET Percodigo=? WHERE Usucodigo=?";
